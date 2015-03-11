@@ -33,6 +33,7 @@ public class mainProgram {
 		
 		// on tue la fenetre de setup car celle-ci n'est pas tué directement par le framework
 		setup.dispose();
+		int i=0;
 			
 		window.setFramerateLimit(60);
 		
