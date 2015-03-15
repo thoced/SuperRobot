@@ -523,12 +523,17 @@ public class Framework
 		DoorFx door = new DoorFx(new Vector2f(6000f,168f),3f,3f,12f);
 		Manager.getManagerFx().insertFx(door);
 		
+		DoorFx door2 = new DoorFx(new Vector2f(6500f,168f),3f,3f,12f);
+		Manager.getManagerFx().insertFx(door2);
+		
 		Tourelle tourelle = new Tourelle(new Vector2f(1100f,600f));
 		Manager.getManagerFx().insertFx(tourelle);
 		
 		TourelleBiCanon tourelle2 = new TourelleBiCanon(new Vector2f(1000,400f));
 		Manager.getManagerFx().insertFx(tourelle2);
 		
+		
+		//TourelleAuto tourelleAuto = new TourelleAuto(new Vector2f(6800f))
 		
 		
 		

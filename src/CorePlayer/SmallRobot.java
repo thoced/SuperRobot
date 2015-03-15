@@ -212,7 +212,7 @@ public class SmallRobot extends RobotBase
 					else if(!this.isSpace && this.isground && Keyboard.isKeyPressed(Keyboard.Key.SPACE))
 					{
 						
-						body.applyLinearImpulse(new Vec2(0,-72), body.getWorldCenter());
+						body.applyLinearImpulse(new Vec2(0,-98F), body.getWorldCenter());
 						this.isground = false;
 						this.isSpace = true;
 					}
